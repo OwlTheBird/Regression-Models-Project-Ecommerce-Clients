@@ -25,7 +25,7 @@ Support Vector Regression (SVR) (before & after tuning, for App and Website data
 XGBoost (before & after tuning, trained on all features: membership length, app time, website time)
 Model Performance:
 
-## Best App Models
+## Best Models
 Linear Regression was the top-performing model on the app-focused dataset. It achieved the highest R² score (0.8614) and the lowest Mean Absolute Error (MAE) of 22.43, indicating strong predictive accuracy with the benefit of simplicity.
 
 Best Website Model: The tuned Support Vector Regression (SVR) model performed slightly better on the website-focused dataset, with an R² score of 0.6355. However, all models trained on website data showed a much weaker correlation to yearly spending than the app-based models.
