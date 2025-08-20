@@ -15,3 +15,12 @@ Time on Website: The average time (in minutes) customers spend browsing the comp
 
 Length of Membership: The total number of years a customer has been a member of the e-commerce platform.
 
+## Models Used
+Linear Regression (For the App Data & Website Data)
+
+Elastic Net Regression (before & after hyperparameter tuning, for App and Website data)
+
+Support Vector Regression (SVR) (before & after tuning, for App and Website data)
+
+XGBoost (before & after tuning, trained on all features: membership length, app time, website time)
+
